@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Excel Application</title>
+  <meta name="description" content="Excel Like Application">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="createTable('dataTable', 5)">
+  <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+
+  <INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+
+	<TABLE id="dataTable" width="350px" border="1">
+		<!--<TR>
+			<TD><INPUT type="checkbox" name="chk"/></TD>
+			<TD> 1 </TD>
+			<TD> <INPUT type="text" /> </TD>
+		</TR>-->
+	</TABLE>
+  <script src="excel.js"></script>
+</body>
+</html>
